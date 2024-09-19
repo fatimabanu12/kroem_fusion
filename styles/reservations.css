@@ -1,0 +1,129 @@
+body{
+    /* background-color: #1A100F; */
+    background: linear-gradient(180deg, rgb(79, 54, 52) 0%, rgba(26,16,15,1) 100%);
+    /* background: white; */
+    margin: 0;
+
+}
+main{
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-content{
+    /* background-color: #1A100F; */
+    background: linear-gradient(90deg, rgb(79, 54, 52) 0%, rgba(26,16,15,1) 63%, rgba(79, 54, 52) 100%);
+    color: rgb(247, 99, 99);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px, 2%;
+    padding: 2%;
+}
+button, input{
+    font-family: sans-serif;
+    background-color: bisque;
+
+    width: 110px;
+    height: 25px;
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+.container-article{
+    color: rgb(247, 99, 99);
+
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.reservation-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.reservation-table{
+    color: bisque;
+    /* color: black; */
+
+    font-family: sans-serif;
+
+    margin: 1% 2%;
+    width: 100%;
+}
+.mainhr{
+    width: 100%;
+}
+.secondhr{
+    width: 65%;
+}
+
+h2{
+    color: rgb(247, 99, 99);
+}
+tr{
+    width: 50%;
+}
+td{
+    align-items: end;
+    width: 50%;
+}
+td>input{
+    background-color: rgb(255, 248, 238);
+    width: 90%;
+}
+.reservation-kroem-logo-container{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-kroem-logo{
+    /* width: 654px;
+    height: 382px; */
+
+    /* width: 327px;
+    height: 191px; */
+
+    width: 325px;
+    height: 225px;
+    border-radius: 10px;
+    box-shadow: 200px;
+}
+
+.previous-reservations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.previous-reservations-details{
+    color: bisque;
+    /* color: black; */
+
+    width: 45%;
+    align-items: start  ;
+}
+
+
+.footer-del-diablo{
+    /* background-color: #1A100F; */
+    background: rgba(26,16,15,1);
+    color: rgb(79, 54, 52);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1% 19%;
+}
