@@ -2,6 +2,16 @@ body{
     background-color: white;
     margin: 0;
 }
+.logo-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.main-logo{
+    width: 200px;
+    height: 120px;
+}
 
 .logo-title-container{
     display: flex;
@@ -93,6 +103,10 @@ aside img {
     font-size: 16px;
     color: black;
     font-family: sans-serif;
+}
+.footer-table{
+    color: rgb(79, 54, 52);
+
 }
 .precio{
     padding-left: 40px;
