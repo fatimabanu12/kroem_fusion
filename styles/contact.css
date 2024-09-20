@@ -1,0 +1,42 @@
+#contacto-seccion-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contacto-seccion-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+#contacto-seccion-uno p{
+    color: bisque
+}
+
+#contacto-seccion-dos p{
+    color: bisque;
+}
+
+
+#contacto-div-contactanos{
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 99, 99);
+}
+
+#contacto-div-contactanos h1{
+    font-size: 40px;
+}
+
+#contact-ubicacion-header{
+    color: bisque;
+    font-size: 40px;
+}
+
+.contact-headers{
+    text-align: center;
+    font-size: 25px;
+    color: bisque;
+}
+
