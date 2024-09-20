@@ -6,8 +6,10 @@ main{
     height: 510px;
     display: flex;
     flex-direction: column;
-    padding: 50px 0%;
+    padding: 100px 0%;
     align-items: center;
+    padding-bottom: 600px;
+
 }
 .logo-title-container{
     display: flex;
@@ -62,44 +64,6 @@ main{
     border-radius: 5px;
 }
 
-#contacto-seccion-uno{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#contacto-seccion-dos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
-}
-
-#contacto-seccion-uno p{
-    color: black
-}
-
-#contacto-seccion-dos p{
-    color: black;
-}
-
-
-#contacto-div-contactanos{
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    color: black
-}
-
-#contacto-div-contactanos h1{
-    font-size: 40px;
-    height: fit-content;
-}
-
-#contact-ubicacion-header{
-    color: black;
-    font-size: 40px;
-}
-
 .contact-headers{
     text-align: center;
     font-size: 25px;
@@ -123,3 +87,85 @@ main{
     
     /* background-color: aqua; */
 }
+
+#divimagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact-div-general{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#contact-div-general h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+#contact-div-general h4{
+    font-size: 25px;
+    
+}
+
+#contact-div-general p{
+    font-size: 25px;
+   
+}
+
+
+#contact-header-socialnetwork{
+    font-size: 20px;
+    text-align: left;
+}
+
+#contact-section-uno{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+   
+}
+#contact-section-uno img{
+    margin: 5px;
+}
+
+
+#contact-sectionuno-subsection{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#contact-sectionuno-article1{
+    display: flex;
+    flex-direction: row;
+    
+}
+#contact-sectionuno-article2{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-article-hour{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+}
+
+#contact-article-hour-hourtitle{
+    text-align: left;
+    padding-left: 70px;
+}
+
+
+#contact-section-dos{
+    border: 2px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
