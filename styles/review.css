@@ -2,16 +2,6 @@ body{
     background-color: white;
     margin: 0;
 }
-.logo-title-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-}
-.main-logo{
-    width: 200px;
-    height: 120px;
-}
 
 .logo-title-container{
     display: flex;
@@ -67,51 +57,69 @@ body{
 }
 
 
-
-#div-logo{
-    display: flex;
-    justify-content: flex-start;
-}
-
-#divcero{
-    justify-content: center;
+#review-seccion-uno{
+    
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    justify-content: center;
+    
 }
 
-.achetres{
-    font-size: 25px;
-    color: black;
-    font-family: sans-serif;
-}
-
-aside {
-    /*para que las imagenes se acomoden en columna*/
-    padding-left: 80px;
+#div-comentario{
+    margin-left:30px; 
     display: flex;
     flex-direction: column;
+    justify-content: end;
+}
+
+#div-logo{
+    margin-left: 30px;
+}
+
+#ache-dos{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+#review-seccion-dos{
+    padding: 25px;
+}
+
+.sub-div{
+    display: flex; 
     justify-content: center; 
+    margin-bottom: 15px; 
+   
 }
-aside img { 
-    margin-bottom: 5px;
+
+#cancelar-enviar{
+    display: flex;
+    justify-content: center;
+    padding-left: 350px
 }
 
+#textarea-expandible{
+    border-radius: 10px;
+    width: 460px; /* Puedes ajustar el valor o usar % para que se ajuste al contenedor */
+    height: 70px;
+}
 
+#boton-cancelar{
+    border-radius: 10px;
+    padding: 10px;
+    
+    color: black
+}
+input{
+    border-radius: 5px;
+}
 
-.menu-table-class td{
-    font-size: 16px;
+#boton-enviar{
+    border-radius: 10px;
+    padding: 10px;
     color: black;
-    font-family: sans-serif;
 }
-.footer-table{
-    color: rgb(79, 54, 52);
-
-}
-.precio{
-    padding-left: 40px;
-}
-
 
 .footer-del-diablo{
     background-color: #1A100F;
@@ -130,4 +138,3 @@ aside img {
     
     /* background-color: aqua; */
 }
-
