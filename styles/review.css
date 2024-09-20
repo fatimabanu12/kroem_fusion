@@ -1,0 +1,63 @@
+
+#review-seccion-uno{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#div-comentario{
+    margin-left:30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#div-logo{
+    margin-left: 30px;
+}
+
+
+
+
+#ache-dos{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(247, 99, 99);
+}
+
+#review-seccion-dos{
+    padding: 25px;
+    
+}
+
+.sub-div{
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 15px; 
+   
+}
+
+#cancelar-enviar{
+    display: flex;
+    justify-content: center;
+    padding-left: 350px
+}
+
+#textarea-expandible{
+    width: 460px; /* Puedes ajustar el valor o usar % para que se ajuste al contenedor */
+    height: 70px;
+}
+
+#boton-cancelar{
+    padding: 10px;
+    background-color: #C4C5C5;
+    color: #282929;
+}
+
+#boton-enviar{
+    padding: 10px;
+    background-color: #D13E4F;
+    color: white;
+}
