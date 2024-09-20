@@ -1,6 +1,72 @@
 body{
-    background-color: #151515;
+    background-color: white;
+    margin: 0;
 }
+.logo-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.main-logo{
+    width: 200px;
+    height: 120px;
+}
+
+.logo-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1.5% 0%;
+}
+.main-logo{
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    width: 200px;
+    height: 120px;
+}
+.header-content{
+    /* background-color: #1A100F; */
+    /* background: linear-gradient(90deg, rgb(79, 54, 52) 0%, rgba(26,16,15,1) 63%, rgba(79, 54, 52) 100%); */
+    background-color: white;
+
+    /* color: rgb(247, 99, 99); */
+    color: #eb9410;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px, 2%;
+    padding: 2% 0% 0% 0%;
+}
+.main-navbar{
+    width: 100%;
+    background-color: #1a100f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation-button{
+    /* color: rgb(255, 230, 41); */
+    color: white;
+
+    font-family: sans-serif;
+    /* background-color: bisque; */
+    background-color: rgba(255, 228, 196, 0);
+    border: 0px;
+
+    width: 210px;
+    height: 25px;
+    cursor: pointer;
+    margin: 10px 30px;
+
+    border-radius: 5px;
+}
+
+
 
 #div-logo{
     display: flex;
@@ -16,8 +82,8 @@ body{
 
 .achetres{
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    color: #E9B410;
+    color: black;
+    font-family: sans-serif;
 }
 
 aside {
@@ -31,18 +97,36 @@ aside img {
     margin-bottom: 5px;
 }
 
-table{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: white; 
-}
 
-td{
+
+.menu-table-class td{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
+    font-family: sans-serif;
 }
+/* .footer-table{
+    color: rgb(79, 54, 52);
+
+} */
 .precio{
     padding-left: 40px;
 }
 
+
+.footer-del-diablo{
+    background-color: #1A100F;
+    /* background: rgba(26,16,15,1); */
+    /* color: rgb(79, 54, 52); */
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1% 19%;
+    align-items: center;
+}
+.footer-del-diablo table{
+    width: 80%;
+    
+    /* background-color: aqua; */
+}
