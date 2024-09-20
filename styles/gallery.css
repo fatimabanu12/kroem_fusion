@@ -97,6 +97,9 @@ h1, h2, h3{
 
     overflow: auto;
 
+    align-self: center;
+    justify-self: center;
+
     padding: 1%;
 }
 .gallery-item p{
