@@ -63,7 +63,7 @@ main{
 section.scroll-container {
     margin: 2% 0%;
     background-color: #1A100F;
-    overflow: hidden;
+    overflow: auto;
     white-space: nowrap;
     padding: 10px;
 
