@@ -2,7 +2,13 @@ body{
     background-color: white;
     margin: 0;
 }
-
+main{
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0%;
+    align-items: center;
+}
 .logo-title-container{
     display: flex;
     flex-direction: column;
@@ -78,6 +84,7 @@ body{
 
 
 #contacto-div-contactanos{
+    height: fit-content;
     display: flex;
     justify-content: center;
     color: black
@@ -85,6 +92,7 @@ body{
 
 #contacto-div-contactanos h1{
     font-size: 40px;
+    height: fit-content;
 }
 
 #contact-ubicacion-header{

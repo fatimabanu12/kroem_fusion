@@ -3,6 +3,14 @@ body{
     margin: 0;
 }
 
+main{
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0%;
+    align-items: center;
+}
+
 .logo-title-container{
     display: flex;
     flex-direction: column;
